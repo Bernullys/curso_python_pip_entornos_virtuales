@@ -31,3 +31,13 @@ Requirements.txt: is a file that admins all dependencies and versions.
         pip3 install -r requirements.txt
         But first we need to create an enviroment as we did it before.
 
+Pandas is a library to manipulate csv (and much more).
+
+FastAPI is a library to create webservers.
+    pip3 install fastapi                #is a api maker
+    pip3 install "uvicorn[standard]"    #is a webserver launcher
+
+    To lunch it: in the terminal: uvicorn file_name:app --reload
+    Now is running in localhost:8000
+
+    It can renderize html
