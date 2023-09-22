@@ -26,6 +26,7 @@ Como se aislan? Crear virtual enviroments
 
 Requirements.txt: is a file that admins all dependencies and versions.
     To create a file with all the dependencies of an enviroment: pip3 freeze > requirements.txt
+    Every time we add a new library we have to update the requirements.txt file.
     The use is when starting a project with these file, we can automatized the installation of the dependencies:
         pip3 install -r requirements.txt
         But first we need to create an enviroment as we did it before.
