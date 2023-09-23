@@ -1,0 +1,17 @@
+#this file will declarate how and from where is going to be initialized this container
+
+#define services and its name
+#build this context from this directory using dockerfile. So it can build the container
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - '80:80'
+#make links between ports
+
+
+#web-server is the name we used here

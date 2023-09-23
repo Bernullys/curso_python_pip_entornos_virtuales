@@ -125,3 +125,13 @@ Dockerizar aplicaciones:
 
 Automatizando la vinculación de archivos
     This is done by adding volumes and the next line as we add in this commit.
+
+Dockerizando web services
+    It only changes:
+    Dockerfile:
+        CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+
+        and
+    docker-compose.yml:
+        ports:
+            - '80:80'
