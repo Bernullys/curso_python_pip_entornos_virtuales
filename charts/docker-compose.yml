@@ -1,0 +1,14 @@
+#this file will declarate how and from where is going to be initialized this container
+
+#define services and its name
+#build this context from this directory using dockerfile. So it can build the container
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+#now to connecto to the container we needed to be on. To do that we execute a CMD command in Dockerfile
+#Its like a virtual machine but is faster and better
+
+
+#app-csv is the name we used here
