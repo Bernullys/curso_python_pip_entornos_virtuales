@@ -39,7 +39,8 @@ FastAPI is a library to create APIs.
 
     To lunch it: in the terminal: uvicorn file_name:app --reload
     Now is running in localhost:8000
-    If I want to change the port: uvicorn file_name:app --reload --port5000 (example)
+    If I want to change the port: uvicorn file_name:app --reload --port 5000 (example)
+    To acces from the LAN: uvicorn file_name:app --reload --port 5000 --host 0.0.0.0
 
     It can renderize html
 
