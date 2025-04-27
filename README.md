@@ -1,7 +1,7 @@
 # curso_python_pip_entornos_virtuales
 Curso de python para iniciar como backend developer
 
-Conamdos:
+Comandos:
 
 pip3 freeze                                     #Show the currents libraries 
 which python3                                   #Shows the version of the program or package
@@ -25,7 +25,7 @@ Como se aislan? Crear virtual enviroments
     Las que se instalen, quedaran solo en este ambiente.
 
 Requirements.txt: is a file that admins all dependencies and versions.
-    To create a file with all the dependencies of an enviroment: pip3 freeze > requirements.txt
+    To create and update a file with all the dependencies of an enviroment: pip3 freeze > requirements.txt
     Every time we add a new library we have to update the requirements.txt file.
     The use is when starting a project with these file, we can automatized the installation of the dependencies:
         pip3 install -r requirements.txt
